@@ -1,0 +1,73 @@
+.pic img {
+    width: 80%;
+    height: auto;
+}
+
+.date_box {
+    display: flex;
+    justify-content: center;
+}
+
+/*========= body背景色の変化CSS ===============*/
+
+body {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #020d12, #2c053b, #b6afe7);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    /*グラデーションを定義*/
+    background-size: 200% 200%;
+    /*サイズを大きくひきのばす*/
+    animation: bggradient 20s ease infinite;
+}
+
+@keyframes bggradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.box {
+    margin-top: 100px;
+}
+
+.cosmo {
+    width: 600px;
+    margin: auto;
+}
+
+.font {
+    margin-top: 10px;
+    color: aliceblue;
+    font-family: 'Kaisei Tokumin', serif;
+    line-height: 240%;
+
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+select input {
+    height: 30px;
+}
